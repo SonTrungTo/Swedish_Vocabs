@@ -1,0 +1,54 @@
+\documentclass[addpoints,a3paper,11pt]{exam}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage[swedish]{babel}
+\usepackage[affil-it]{authblk}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol,microtype}
+\newcommand{\f}[1][{}]{\fillin[#1][0.5in]}
+\newcommand{\note}[1]{\textit{#1}}
+\pagestyle{headandfoot}
+\chead[Leadoo Marketing Technologies \\
+    Swedish self-test vocabulary \\
+    Son To]{yes}
+\cfoot{Page \thepage\ of \numpages}
+\rfoot{\iflastpage{THE END}{Please go on to the next page\ldots}}
+\begin{document}
+    \title{\bfseries Swedish Master}
+    \author{Son To}
+    \affil{Leadoo Marketing Technologies
+    \thanks{I thank my employer!}}
+    \date{25. heinäkuuta 2021}
+    \maketitle
+
+    \begin{coverpages}
+        This is the review of all vocabularies that appear
+        in various texts,
+        namely \cite{EngToSwe1},
+        in my attempt to master Swedish, once and for all.
+    \end{coverpages}
+
+    \begin{center}
+        \fbox{\fbox{\parbox{5.5in}{\centering
+            This is the self-review made by me using
+            the language \TeX\ written by Donald Knuth with
+            \LaTeX\ as its successor in implementation. The
+            documentation for this review comes from exam.cls
+            made by Philip Hirschhorn.}}}
+    \end{center}
+
+    \vspace{0.1in}
+
+    \makebox[\textwidth]{Name:\enspace\hrulefill}
+
+    \vspace{0.2in}
+
+    \makebox[\textwidth]{Year of birth:\enspace\hrulefill}
+
+    \input{EngToSwe1/EngToSwe1.tex}
+
+    \clearpage
+    \bibliographystyle{plain}
+    \bibliography{swe_texts}
+
+\end{document}
