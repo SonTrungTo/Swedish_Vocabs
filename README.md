@@ -3,3 +3,4 @@ The [book](https://github.com/SonTrungTo/Swedish_Vocabs/raw/master/collection.pd
 All Swedish vocabs in this repo are taken from the following books,
 
 - From English to Swedish 1 (Bengt & Carol Hällgren)
+- Rivstart (A1 + A2)
