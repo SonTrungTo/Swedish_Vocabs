@@ -6,3 +6,6 @@ cd ..
 cd RivStart1/
 latexmk -c
 cd ..
+cd RivStart2/
+latexmk -c
+cd ..
